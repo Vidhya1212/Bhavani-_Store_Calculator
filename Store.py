@@ -3,7 +3,7 @@
 # My first Python project - Built on mobile
 
 storename = "Bhavani Stationary Shop"
-print(f"Welcome to {storename} Store")
+print(f"Welcome to {shopname} shop")
 n=int(input("How may customers today:"))
      
 for customer in range(n):

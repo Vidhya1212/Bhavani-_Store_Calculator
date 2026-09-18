@@ -17,7 +17,7 @@ for customer in range(n):
     print(f"You pay: {finalprice}")
 
     if finalprice > 1500:
-        print("Bumper Offer! FREE School Bag! 🛒")
+        print("Bumper Offer! FREE School Bag! 🎒")
     elif finalprice > 1000:
         print("Super! FREE Water Bottle! 🧴")
     elif finalprice > 500:

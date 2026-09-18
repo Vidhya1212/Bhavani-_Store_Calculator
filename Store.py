@@ -21,4 +21,4 @@ for customer in range(3):
         print("Thank you! Visit again!")
 
 # LOOP ENDS
-printf("Welcome");
+print("Welcome")

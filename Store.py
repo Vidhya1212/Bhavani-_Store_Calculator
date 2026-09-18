@@ -1,5 +1,5 @@
 
-# # Bhavani Store - Billing Calculator
+#  Bhavani Store - Billing Calculator
 # My first Python project - Built on mobile
 
 storename = "Bhavani Stationary Shop"

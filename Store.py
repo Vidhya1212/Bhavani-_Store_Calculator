@@ -28,4 +28,4 @@ for customer in range(n):
         print("Thank you! Visit again!")
 
 # LOOP ENDS
-print("===Welcome!===")
+print("---  Happy Shopping 🙏 ---")

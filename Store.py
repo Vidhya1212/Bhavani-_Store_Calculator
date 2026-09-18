@@ -5,20 +5,20 @@
 storename = "Bhavani"
 print(f"Welcome to {storename} Store")
 
-price = float(input("Enter the price: "))
-discountpercent = float(input("Enter discount %: "))
+for customer in range(3):
+    print(f"\n--- Customer {customer+1} ---")
+    price = float(input("Enter the price: "))
+    discountpercent = float(input("Enter discount %: "))
 
-discount = price * discountpercent / 100
-finalprice = price - discount
+    discount = price * discountpercent / 100
+    finalprice = price - discount
 
-print(f"Original Price: {price}")
-print(f"Discount: {discount}")
-print(f"You pay: {finalprice}")
+    print(f"You pay: {finalprice}")
 
-# Smart Offer System - NEW
-if finalprice > 1000:
-    print("Wow! You get a FREE Gift from Bhavani Store! 🎁")
-else:
-    print("Thank you for shopping! Visit again!")
+    if finalprice > 1000:
+        print("Wow! FREE Gift! 🎁")
+    else:
+        print("Thank you! Visit again!")
 
-print("Thank you for shopping!")
+# LOOP ENDS
+printf("Welcome");

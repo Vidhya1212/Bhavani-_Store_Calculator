@@ -4,8 +4,9 @@
 
 storename = "Bhavani"
 print(f"Welcome to {storename} Store")
-
-for customer in range(3):
+n=int(input("How may customers today:"))
+     
+for customer in range(n):
     print(f"\n--- Customer {customer+1} ---")
     price = float(input("Enter the price: "))
     discountpercent = float(input("Enter discount %: "))
@@ -21,4 +22,4 @@ for customer in range(3):
         print("Thank you! Visit again!")
 
 # LOOP ENDS
-print("Welcome")
+print("===Welcome===")

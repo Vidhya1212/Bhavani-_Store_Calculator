@@ -2,7 +2,7 @@
 #  Bhavani Store - Billing Calculator
 # My first Python project - Built on mobile
 
-storename = "Bhavani Stationary Shop"
+shopname = "Bhavani Stationary Shop"
 print(f"Welcome to {shopname} shop")
 n=int(input("How may customers today:"))
      
